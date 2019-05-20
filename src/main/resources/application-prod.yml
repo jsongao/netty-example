@@ -1,0 +1,18 @@
+oauth:
+  CIProfileUrl: https://identitybts.webex.com/identity/scim/v1/Users/me/
+
+
+tcp:
+  port: 8090
+boss:
+  thread:
+    count: 2
+worker:
+  thread:
+    count: 2
+so:
+  keepalive: true
+  backlog: 100
+
+logging:
+  config: classpath:log4j2.xml
